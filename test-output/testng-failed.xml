@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
@@ -7,6 +8,16 @@
         <methods>
           <include name="close"/>
           <include name="start"/>
+=======
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="hospital_management.Login">
+        <methods>
+          <include name="start"/>
+          <include name="close"/>
+>>>>>>> origin/master
           <include name="test"/>
         </methods>
       </class> <!-- hospital_management.Login -->

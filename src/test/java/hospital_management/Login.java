@@ -29,7 +29,11 @@ public class Login extends BaseDriver{
 		
 		WebElement signin = driver.findElement(By.className("button"));
 		signin.click();
+<<<<<<< HEAD
 		Thread.sleep(30000);
+=======
+		Thread.sleep(10000);
+>>>>>>> origin/master
 		
 		
 		WebElement province = driver.findElement(By.xpath("//form/div[1]/div[1]/select"));
@@ -54,7 +58,11 @@ public class Login extends BaseDriver{
 		
 		WebElement btn = driver.findElement(By.className("button"));
 		btn.click();
+<<<<<<< HEAD
 		Thread.sleep(30000);
+=======
+		Thread.sleep(5000);
+>>>>>>> origin/master
 		
 		
 		WebElement nrc = driver.findElement(By.xpath("//form/div[1]/div[1]/div[1]/input"));
@@ -63,11 +71,19 @@ public class Login extends BaseDriver{
 		
 		WebElement search = driver.findElement(By.xpath("//form/div[2]/button[1]"));
 		search.click();
+<<<<<<< HEAD
 		Thread.sleep(30000);
 		
 		WebElement patiendt = driver.findElement(By.xpath("//button[contains(text(),'Attend to Patient')]"));
 		patiendt.click();
 		Thread.sleep(30000);
+=======
+		Thread.sleep(10000);
+		
+		WebElement patiendt = driver.findElement(By.xpath("//button[contains(text(),'Attend to Patient')]"));
+		patiendt.click();
+		Thread.sleep(5000);
+>>>>>>> origin/master
 		
 		WebElement vital = driver.findElement(By.xpath("//body/div[@id='root']/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]"));
 		vital.click();
@@ -75,7 +91,11 @@ public class Login extends BaseDriver{
 		
 		WebElement addVital = driver.findElement(By.xpath("//body/div[@id='root']/div[2]/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]"));
 		addVital.click();
+<<<<<<< HEAD
 		Thread.sleep(30000);
+=======
+		Thread.sleep(10000);
+>>>>>>> origin/master
 				////body/div[@id='root']/div[2]/div[3]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/input[1]
 		/*
 		 *  //body/div[@id='root']/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]/div[1]/img[1]
